@@ -5,7 +5,7 @@
 ---
 
 
-### Description 
+### Description
 
 The team from Relaxr is back...again! They want their page to be more interactive and asked you to add JavaScript to their source code. You've been given the HTML and CSS but will need to create a JavaScript file and add a few different pieces of interactivity:  Users should be able to click a link and have the remainder of the blog's content slide down and appear on the page, both on the main content column and the side bar; users should also be able hide the content when they are finished reading. See a detailed technical explanation below.
 
@@ -28,20 +28,21 @@ The team from Relaxr is back...again! They want their page to be more interactiv
 ---
 
 
-### Technical Requirements 
+### Technical Requirements
 
-- Prevent a form submission with the ```event.preventDefault()``` function
-- Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded
-- Select the appropriate DOM elements with CSS selectors upon a user's click using the ```$.click()``` handler
+- Prevent a form submission with the ```event.preventDefault()``` function (DONE)
+- Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded (DONE)
+
+- Select the appropriate DOM elements with CSS selectors upon a user's click using the ```$.click()``` handler (DONE)
 - If a user clicks "Read More" on the primary column:
 
   - have the text in the ```<p>``` tag slide down along with a "Read Less" link in the blog post using  ```$.slideDown()``` and ```$.show()```
-  - hide the "Read More" link using ```$.hide()```
+  - hide the "Read More" link using ```$.hide()``` DONE
 
-- If a user clicks "Read Less" on the primary column:
+- If a user clicks "Read Less" on the primary column: DONE
 
   - have the ```<p>``` slide up and hide the "Read Less" link using  ```$.slideUp()``` and ```$.hide()```
-  - show the "Read More" link using ```$.show()```
+  - show the "Read More" link using ```$.show()``` DONE
 
 - Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the ```<span>``` inside that ```<p>``` slide down and hide the "Learn More" link using ```$.slideDown()``` and ```$.hide()```
 
