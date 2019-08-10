@@ -1,5 +1,7 @@
 $(document).ready();
 
+//Im not at all sure if this is right
+
 $("a").click(function (event) {
     event.preventDefault();
     $("<div>")
