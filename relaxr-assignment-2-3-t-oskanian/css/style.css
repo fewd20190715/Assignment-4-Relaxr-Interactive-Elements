@@ -1,0 +1,335 @@
+
+Project Name: Relaxr
+Client: Relaxing Relaxr
+Author: tamar.oskanian@gmail.com
+Developer tamar.oskanian@gmail.com in NYC
+
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     background-color: #f0efef;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif, Arial;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+/* Center the container */
+#container {
+  margin: auto;
+}
+
+header {
+  height: 75px;
+  background: url(../images/testimonial_bg.jpg) rgb(134,141,157);
+  background-size: cover;
+  opacity: 0.8;
+}
+h1 {
+  text-align: left;
+  font-size: 24px;
+  color: white;
+  width: auto;
+  font-weight: 800;
+  margin: 22px 0 0 30px;
+}
+nav li a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+  padding: 8px;
+  text-decoration: none;
+  padding: 15px;
+}
+nav li a:hover {
+  color: white;
+}
+nav li {
+  display: inline-block;
+}
+nav>ul {
+  list-style: none;
+  margin-top: 22px;
+  text-align: right;
+}
+#header-h1-div {
+  float: left;
+  width: 33%; 
+  text-align: center;
+}
+#header-nav-div {
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+#benefits-h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 35px 0 15px 50px;
+}
+/* why are my bullets / discs not appearing reset file :( */
+#benefits-h3 ~ p {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 5px 0 28px 50px;
+  width: 350px;
+}
+ul.benefits-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+li.benefits-list-items {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 2px 0 5px 70px;
+  width: 240px;
+  list-style-position: inside;
+}
+.color-606161 {
+  color: #606161;
+}
+div.quote-container {
+  width: 100%;
+  margin: auto;
+  height: 220px;
+  background: url(../images/testimonial_bg.jpg) rgb(134,141,157);
+  background-size: cover;
+  margin-top: 30px;
+  z-index: -2;
+  opacity: 0.8;
+  text-align: center;
+}
+#quote {
+  font-size: 18px;
+  font-weight: 300i;
+  font-style: italic; 
+  color: white; 
+  text-align: center;
+  padding-top: 50px;
+  height: auto;
+  width: 300px;
+  display: inline-block;
+}
+#amanda-intuit {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 8px;
+}
+div.sign-up-container {
+  height: 70px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+.sign-up-container button {
+  visibility: hidden;
+}
+.sign-up-container a {
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: #033048;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 25px;
+  display: inline-block;
+  margin: 20px;
+  width: 150px;
+}
+.sign-up-container a:hover {
+  color: yellow;
+}
+/* footer>.footer-relaxr-h2 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 30px 0 0 0;
+} */
+/* #blog-post-1-div, #blog-post-2-div {
+  float: left;
+  width: 69%;
+  margin: 10px;
+}
+.categories-div, .about-relaxr, .ad-unit {
+  float: right;
+  width: 15%;
+  margin: 10px;
+}
+.ad-unit {
+  font-size: 6px;
+} */
+.blog-content-div {
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+}
+#blog-posts-div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+div.blog-post {
+  border-bottom: 1px solid black;
+}
+.side-bar-div {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+}
+.blog-content-div > div {
+  margin: 15px;
+}
+#blog-posts-div img {
+  width: 100%;
+  height: auto;
+}
+.blog-post h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 25px;
+}
+.blog-post p {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 25px;
+}
+.blog-post span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  line-height: 80%;
+}
+div.blog-post > a:hover {
+  color: grey;
+}
+/* #read-more {
+	display: none;
+}
+#read-more:target {
+	display: block;
+} */
+.blog-post a {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.side-bar-div div {
+  padding: 13px;
+}
+.side-bar-div h3 {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 8px;
+}
+.categories-div a {
+  font-size: 24px;
+  font-weight: 300;
+}
+.about-relaxr p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.about-relaxr h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+h4#learn-more:hover {
+  color: #f9e42e;
+}
+footer {
+  background-color: rgba(18,18,18,0.8);
+  height: 200px;
+  margin-top: 50px;
+  /* clear: both; */
+}
+#footer-relaxr-h2 {
+  font-size: 24px;
+  font-weight: 800;
+  height: 80px;
+  width: auto;
+  text-align: center;
+  color: #f9e42e;
+  padding: 27px 0 0 0;
+ } 
+#social-footer-div {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.social-footer img {
+  height: 18px;
+  margin-right: 18px;
+}
+footer h6 {
+  font-size: 9px;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+  margin-top: 45px;
+}
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
