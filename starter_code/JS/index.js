@@ -1,6 +1,8 @@
-$(document).ready();
+$('document').ready(onReadyFunction);
 
 //Im not at all sure if this is right
+
+function onReadyFunction() {
 
 $("a").click(function (event) {
     event.preventDefault();
@@ -33,4 +35,6 @@ function learnMore() {
 $(".readmore").click(showReadMore);
 $(".readless").click(hideReadMore);
 $(".learnmore").click(learnMore);
+
+}
 
