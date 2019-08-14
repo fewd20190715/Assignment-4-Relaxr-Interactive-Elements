@@ -1,80 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<title>Weather Background</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="UTF-8">
+  <title>Relaxr Blog</title>
+  <link href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans">
+  <link rel="stylesheet" href="css/relaxr-interactive.css">
+</head>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<h1 class="logo">Relaxr</h1>
-				<nav>
-					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Team</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Blog</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section id="main">
-			<div class="container">
-				<section id="posts">
-					<article class="post">
-						<h2><a href="#">How I implemented Relaxr in 2 weeks and changed my life.</a></h2>
-						<img src="images/blog_photo1.jpg" alt="Crew Meet">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Relaxr</h1>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+  </header>
+  </div>
+<!-- parent display flex -->
+<div style="display: flex">
+    <!-- bag1 -->
+    <div class="main-container">
+      <h2>How I implemented Relaxr in 2<br>
+        weeks and changed my life.</h2>
+      <img src="https://i.imgur.com/ZmvcBeM.jpg">
+      <p id="para1">Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the
+        Boundaries
+        of Goods and Evils; finibus may also be translated as purposes). Neque porro quisquam est qui dolorem ipsum quia
+        dolor sit amet, consectetur, adipisci velit is the first known version ("Neither is there anyone who loves grief
+        itself since it is grief and thus wants to obtain it"). It was found by Richard McClintock, a philologist,
+        director of publications at Hampden-Sydney College in Virginia; he searched for citings of consectetur in
+        classical Latin literature, a term of remarkably low frequency in that literary corpus.</p>
+      <h3 id="readmore">Read More ></h3>
+      <h3 id="readless">Read Less ></h3>
+      <hr>
+      <h2>I traveled across the globe thanks to<br>
+        Relaxr's Excel automation</h2>
+      <img src="https://i.imgur.com/YXijM0k.jpg">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes
+        from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+        written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The
+        first
+        line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-						<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-						<p class="readmore"><a href="#">Read more &gt;</a></p>
-						<p class="readless hide"><a href="#">Read less &gt;</a></p>
-					</article>
-					<article class="post">
-						<h2><a href="#">I traveled across the globe thanks to Relaxr’s Excel auomation</a></h2>
-						<img src="images/blog_photo2.jpg" alt="Canoes">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-
-					</article>
-				</section><!--
-			--><aside id="sidebar">
-					<h3>Categories</h3>
-					<ul>
-						<li><a href="#">Success stories</a></li>
-						<li><a href="#">Stats</a></li>
-						<li><a href="#">How tos</a></li>
-						<li><a href="#">Best of</a></li>
-						<li><a href="#">Business tips</a></li>
-					</ul>
-					<h3>About Relaxr</h3>
-					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
-					<a href="#" class="learnmore">Learn More</a> <span class="hide" id="learnmoretext">Here is some more text about this fun thing!</p>
-					<img src="images/ad-unit.png" alt="Ad Unit">
-				</aside>
-			</div>
-		</section>
-
-		<aside id="bottom-cta">
-			<a class="button blue" href="#">Sign Up Now!</a>
-		</aside>
-		<footer>
-			<h4 class="logo">Relaxr</h4>
-
-			<ul>
-				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
-			</ul>
-
-			<p class="copyright">Copyright 2015. Relaxr.</p>
-		</footer>
-	</body>
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+        1.10.32
+        and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
+        accompanied by English versions from the 1914 translation by H. Rackham.</p>
+      <h3> <a href="#">Read More ></a></h3>
+      <hr>
+   </div>
+    <!-- bag2 -->
+    <div>
+      <div class="sidebar">
+        <h2>Categories</h2>
+      </div>
+      <div class="sidebar1">
+        <ul>
+          <li>Success Stories</li>
+          <li>Statistics</li>
+          <li>How To's</li>
+          <li>Best of</li>
+          <li>Business Tips</li>
+        </ul>
+      </div>
+      <div class="sidebar2">
+        <h2>About Relaxr</h2>
+      </div>
+      <div class="sidebar3">
+        <p>Lorem ipsum dolor sit amet, duo meis ipsum doctus in, vim ad erat verterem, alia error nihil et cum. Eum
+          epicuri mediocrem interpretaris te. Cu debitis detracto sed, vel sonet doctus instructior ad. Ad suas
+          delicata
+          sea.</p>
+      </div>
+      <div class="ad-unit">
+        <img src="https://imgur.com/ZJc9goh.jpg" width="400" height="800">
+      </div>
+    </div>
+  </div>
+  <div class="footer-1">
+    <div class="btnClass"></div>
+    <button>Sign Up Now!</button>
+  </div>
+  <div class="footer-2"></div>
+    <div class="h2">
+      <h2>Relaxr</h2>
+  </div>
+  <div class="twitter-logo">
+    <img src="https://imgur.com/kGyNmLc.jpg">
+  </div>
+  <div class="facebook-logo">
+    <img src="https://imgur.com/DgMnGLf.jpg"></div>
+  <div class="copyright">
+    <p>Copyright 2019. Relaxr.</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/relaxr-interactive.js" type="application/javascript"></script>
+</body>
 </html>

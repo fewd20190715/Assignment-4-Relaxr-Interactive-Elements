@@ -1,0 +1,195 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: lightgray;
+}
+
+header {
+    background: #033048
+}
+
+header ::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.navbar h1 {
+    float: left; 
+    padding-left: 100px;
+    color: #fff
+    
+}
+
+nav {
+    float: right;    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px; 
+    padding-top: 25px;
+    padding-right: 50px;
+    font-size: 24px;
+    
+}
+
+nav a {
+    color: #f9e42e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    background: lightgray;
+    height: 70%;
+    float: left;
+    text-align: left;
+    
+}
+
+.main-container h2 {
+    color: #033048;
+    font-size: 34px;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+
+.main-container p {
+    color: #121212;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 18px;
+    font-size: 24px;
+}
+
+h3 {
+    text-align: right;
+    color: #033048;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+h3 a {
+    text-decoration: none;
+} 
+    
+.main-container img {
+    padding-left: 100px
+}
+
+.main-container hr {
+      margin-right: 715px;
+      margin-left: 100px;
+      background: #033048;      
+  }
+  
+button {
+    border-radius: 3px;
+    border: blue;
+    padding: 10px 36px 10px 36px;
+    color: #fff;
+    background-color:#033048;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bolder !important;
+  }
+
+.footer-1 {
+      height: 95px;
+      background-color: #f9e42e;
+      text-align: center;
+      padding-top: 23px;
+  }
+
+
+.footer-2 {
+    height: 250px;
+    background-color: #121212;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: -263px;;
+  margin-left: 8px;
+  padding-top: 30px;
+  color: #f9e42e;
+}
+
+.twitter-logo {
+   text-align: center;
+   margin-right: 70px;
+   margin-bottom: -38px;
+}
+
+.facebook-logo {
+  text-align: center;
+  margin-left: 52px;
+  margin-bottom: 30px
+   
+}
+
+.copyright p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-right: -5px;
+}
+
+.sidebar h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #033048;
+    margin-left: 65px;
+}
+
+.sidebar1 ul li {
+    font-size: 24px;
+    color: #121212;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.sidebar2 h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #033048;
+    margin-left: 65px;
+}
+
+.sidebar3 p {
+    text-align: left;
+    color: #121212;
+    font-size: 24px;
+    margin-left: 65px;
+    margin-right: 136px;
+}
+
+.ad-unit img  {
+    margin-left: 121px;
+    margin-top: 45px; 
+}
+
+.sidebar  {
+    margin-top: 120px
+}
