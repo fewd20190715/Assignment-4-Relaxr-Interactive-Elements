@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'open-sans';
+    src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+}
+body{
+    font-family: 'open-sans', arial;
+    color: #033048;
+    background: #f0efef;
+}
+
+/* Heading settings coded in #nav-bar  */
+header h1 {
+    font-size: 175%;
+    font-weight: bolder;
+    flex-grow: 1;
+}
+/* Footer Setting */
+footer{
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9e42e;
+    padding: 30px;
+    font-weight: bolder;
+    height: 200px;
+}
+footer p{
+    font-size: 30px;
+}
+#copyright {
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+header p{
+    color: #f9e42e;
+    font-weight: lighter;
+}
+/* Main-bar heading size */
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Side-bar heading size */
+h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+hr {
+    height: 3px;
+    background: #033048;
+}
+
+/* Categories list items */
+li{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+/* Article body text */
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.article * {
+    margin-bottom: 20px;
+}
+.article p{
+    /*Text wrap first letter -webkit-initial-letter: 2; */
+    font-size: 24px;
+    /* font-weight: lighter; */
+}
+.article .mock::first-letter{
+    float: left;
+    font-size: 80px;
+    margin: 0 10px 0 0;
+    font-weight: bolder;
+}
+.read-more {
+    color:#033048;
+    font-weight: bold;
+}
+/* Nav bar settings*/
+nav {
+    background: #033048;
+    height: 100px;
+}
+#nav-bar{
+    color: white;
+    background: #033048;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav-cards p{
+    display: inline;
+    padding: 20px;
+}
+#nav-cards p:last-child {
+    padding-right: 0;
+}
+/* Content Container */
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+/* Sign up bar */
+.signup{
+    background: #f9e42e;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+/* Sign Up Button */
+
+.signup button{
+    width: 200px;
+    padding: 10px 15px;
+    background: #033048;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid #033048;
+    color: white;
+}
+/* Side-bar Settings */
+.left {
+    width: 700px;
+    margin-right: 20px;
+}
+/* Main-bar Settings */
+.right{
+    /* margin-right: 6%; */
+    width: 240px;
+}
+/* About me body text */
+#About-Relaxr p{
+    font-size: 22px;
+}
+#About-Relaxr .learn {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.social-media li{ 
+    display: inline;
+}
+/* Categories list parent */
+#categories ul {
+    margin-bottom: 20px;
+}
+#categories li{
+   margin-left: 7px;
+}
+/* Footer icon Facebook */
+#facebook {
+    background: #121212;
+    border: 1px solid #121212;
+    padding: 10px;
+    padding-bottom: 0;
+}
+/* Footer Icon Twitter */
+#twitter {
+    background: #121212;
+    border: 1px solid #121212;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.nav-right p{
+    display:inline;
+    margin-left: 20px;
+}
+/* Wrap text on first letter of article 
+copy footer settings from landing page
+set up height for ad unit
+
+Indent category list items
+
+margin bottom left items
+*/
